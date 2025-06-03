@@ -162,7 +162,7 @@ const About = () => {
                     <div className="relative mb-3">
                       <div className="absolute -inset-0.5 bg-notion-gray/20 rounded-lg blur-sm"></div>
                       <div className="relative bg-gradient-to-b from-notion-gray/10 to-notion-gray/5 rounded-lg overflow-hidden">
-                        <Avatar className="w-full h-full border-2 border-notion-gray/20 shadow-lg rounded-lg">
+                        <Avatar className="w-full h-48 border-2 border-notion-gray/20 shadow-lg rounded-lg">
                           <AvatarImage
                             src="/derek-elden2_bw.webp"
                             alt="Developer"
