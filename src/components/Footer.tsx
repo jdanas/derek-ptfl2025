@@ -43,14 +43,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#projects"
-                    className="text-notion-text/70 hover:text-notion-text transition-colors"
-                  >
-                    Projects
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="#contact"
                     className="text-notion-text/70 hover:text-notion-text transition-colors"
                   >
@@ -65,7 +57,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="#"
+                    href="https://github.com/jdanas"
                     className="text-notion-text/70 hover:text-notion-text transition-colors"
                   >
                     GitHub
@@ -73,7 +65,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/john-derek-anas-1855a886/"
                     className="text-notion-text/70 hover:text-notion-text transition-colors"
                   >
                     LinkedIn
@@ -81,18 +73,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://huggingface.co/Dereksans"
                     className="text-notion-text/70 hover:text-notion-text transition-colors"
                   >
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-notion-text/70 hover:text-notion-text transition-colors"
-                  >
-                    Dribbble
+                    HuggingFace
                   </a>
                 </li>
               </ul>
@@ -102,7 +86,7 @@ const Footer = () => {
 
         {/* Bottom Text */}
         <div className="mt-12 text-center text-notion-text/60 text-sm">
-          <p className="flex items-center justify-center gap-1">
+          <p className="flex items-cnter justify-center gap-1">
             Designed and built with <Heart size={14} className="text-red-500" />{" "}
             by Derek A.
           </p>
