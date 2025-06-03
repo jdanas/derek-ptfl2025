@@ -104,7 +104,7 @@ const Footer = () => {
         <div className="mt-12 text-center text-notion-text/60 text-sm">
           <p className="flex items-center justify-center gap-1">
             Designed and built with <Heart size={14} className="text-red-500" />{" "}
-            by Jane Doe
+            by Derek A.
           </p>
         </div>
       </div>
