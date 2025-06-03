@@ -72,10 +72,11 @@ const Hero = () => {
             style={{ animationDelay: "1.1s" }}
           >
             <a
-              href="#projects"
+              href="/cv.pdf"
+              download="love_letter_from_derek.pdf"
               className="px-8 py-3 bg-notion-text text-white rounded-lg font-medium shadow-sm hover:bg-notion-text/90 transition-all duration-300 hover:-translate-y-1"
             >
-              View my work
+              Take Me, I'm Yours
             </a>
             <a
               href="#contact"
