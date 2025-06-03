@@ -161,17 +161,17 @@ const About = () => {
 
                     <div className="relative mb-3">
                       <div className="absolute -inset-0.5 bg-notion-gray/20 rounded-lg blur-sm"></div>
-                      <div className="relative bg-gradient-to-b from-notion-gray/10 to-notion-gray/5 rounded-lg overflow-hidden aspect-video flex items-center justify-center">
-                        <Avatar className="h-24 w-24 border-2 border-notion-gray/20 shadow-lg">
-                          <AvatarImage src="/placeholder.svg" alt="Developer" />
-                          <AvatarFallback className="bg-notion-gray/5">
-                            <User className="h-12 w-12 text-notion-text/40" />
+                      <div className="relative bg-gradient-to-b from-notion-gray/10 to-notion-gray/5 rounded-lg overflow-hidden">
+                        <Avatar className="w-full h-full border-2 border-notion-gray/20 shadow-lg rounded-lg">
+                          <AvatarImage
+                            src="/derek-elden2.webp"
+                            alt="Developer"
+                            className="rounded-lg object-cover w-full h-full"
+                          />
+                          <AvatarFallback className="bg-notion-gray/5 rounded-lg w-full h-full flex items-center justify-center">
+                            <User className="h-16 w-16 text-notion-text/40" />
                           </AvatarFallback>
                         </Avatar>
-
-                        <div className="absolute -right-6 -top-6 w-20 h-20 bg-notion-gray/10 rounded-full"></div>
-                        <div className="absolute -left-4 bottom-8 w-14 h-14 bg-notion-gray/10 rounded-full"></div>
-                        <div className="absolute right-10 -bottom-2 w-12 h-12 bg-notion-gray/10 rounded-full"></div>
                       </div>
                     </div>
 
