@@ -18,6 +18,8 @@ const Github = () => {
     } else if (displayText.length === fullText.length && isTyping) {
       // Finished typing, wait 3 seconds then restart
       setIsTyping(false);
+    } else if (!isTyping && displayText.length === fullText.length) {
+      // Wait period after typing is complete
       timeout = setTimeout(() => {
         setDisplayText("");
         setIsTyping(true);
