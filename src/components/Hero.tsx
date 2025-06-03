@@ -20,7 +20,10 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute -inset-0.5 bg-notion-gray/50 rounded-full blur opacity-50 group-hover:opacity-70 transition duration-1000"></div>
             <Avatar className="h-48 w-48 md:h-56 md:w-56 border-4 border-white shadow-md">
-              <AvatarImage src={`${import.meta.env.BASE_URL}derekportfolio.jpeg`} alt="Your Name" />
+              <AvatarImage
+                src={`${import.meta.env.BASE_URL}derekportfolio.jpeg`}
+                alt="Your Name"
+              />
               <AvatarFallback className="text-5xl font-light text-notion-gray">
                 YN
               </AvatarFallback>
@@ -71,7 +74,7 @@ const Hero = () => {
             style={{ animationDelay: "1.1s" }}
           >
             <a
-              href="/cv.pdf"
+              href={`${import.meta.env.BASE_URL}cv.pdf`}
               download="love_letter_from_derek.pdf"
               className="px-8 py-3 bg-notion-text text-white rounded-lg font-medium shadow-sm hover:bg-notion-text/90 transition-all duration-300 hover:-translate-y-1"
             >

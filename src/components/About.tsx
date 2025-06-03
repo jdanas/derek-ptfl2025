@@ -164,7 +164,9 @@ const About = () => {
                       <div className="relative bg-gradient-to-b from-notion-gray/10 to-notion-gray/5 rounded-lg overflow-hidden">
                         <Avatar className="w-full h-48 border-2 border-notion-gray/20 shadow-lg rounded-lg">
                           <AvatarImage
-                            src={`${import.meta.env.BASE_URL}derek-elden2_bw.webp`}
+                            src={`${
+                              import.meta.env.BASE_URL
+                            }derek-elden2_bw.webp`}
                             alt="Developer"
                             className="rounded-lg object-cover w-full h-full"
                           />
