@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute -inset-0.5 bg-notion-gray/50 rounded-full blur opacity-50 group-hover:opacity-70 transition duration-1000"></div>
             <Avatar className="h-48 w-48 md:h-56 md:w-56 border-4 border-white shadow-md">
-              <AvatarImage src="/placeholder.svg" alt="Your Name" />
+              <AvatarImage src="/derekportfolio.jpeg" alt="Your Name" />
               <AvatarFallback className="text-5xl font-light text-notion-gray">
                 YN
               </AvatarFallback>
