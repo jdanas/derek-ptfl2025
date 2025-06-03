@@ -87,7 +87,7 @@ const About = () => {
       icon: Database,
       color: "#339933",
     },
-    { name: "LLM/AI Agents", level: 92, icon: Code, color: "#F7931E" },
+    { name: "LLM/Agentic AI", level: 92, icon: Code, color: "#F7931E" },
   ];
 
   return (
@@ -376,24 +376,29 @@ const About = () => {
 
             <div className="space-y-4 text-lg text-notion-text/80">
               <p>
-                Hello! I'm a frontend developer passionate about crafting clean,
-                elegant interfaces that balance aesthetics with function. I
-                specialize in React, TypeScript, and modern CSS, turning designs
-                into seamless, intuitive experiences.
+                As a Research Engineer II at Nanyang Technological University
+                Singapore, I'm at the forefront of maritime innovation, helping
+                ships navigate the future safely. Under the Singapore Maritime
+                Institute's "Safety 4.0" project, I design and build AI-powered
+                tools that transform how we approach maritime safety.
               </p>
 
               <p>
-                Currently, I work at Nanyang Technological University Singapore
-                as a Research Engineer II, building AI-powered tools for
-                maritime safety under the Singapore Maritime Institute's "Safety
-                4.0" project. From predictive risk models to crew well-being
-                monitoring, I'm helping ships stay safe and crews stay sharp.
+                This involves developing AI/ML predictive models for real-time
+                risk forecasting and anomaly detection in ship operations,
+                creating comprehensive safety analytics frameworks that
+                integrate diverse data streams (sensor, environmental, and
+                biometric), and pioneering crew well-being monitoring using
+                physiological and mental health indicators. My goal is to equip
+                the maritime industry with decision-support tools that automate
+                safety alerts and recommend crucial mitigation strategies,
+                ultimately making our seas safer and our crews sharper.
               </p>
 
               <p>
-                When I'm not coding, you'll catch me sketching UI ideas,
-                flipping through design books, or hunting down the next great
-                coffee spot in Singapore.
+                When I'm not deep in the matrix, I'm probably conjuring up UI
+                masterpieces, devouring design wisdom, or meticulously crafting
+                the next legendary brew in Singapore
               </p>
             </div>
 
