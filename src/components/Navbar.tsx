@@ -1,6 +1,5 @@
-
-import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -8,10 +7,8 @@ const Navbar = () => {
 
   // Navigation items
   const navItems = [
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Contact', href: '#contact' },
+    { name: "About", href: "#about" },
+    { name: "Contact", href: "#contact" },
   ];
 
   // Handle scroll event to change navbar style
@@ -24,14 +21,14 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <nav 
+    <nav
       className={`fixed top-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/70 backdrop-blur-sm shadow-sm' : 'bg-transparent'
+        isScrolled ? "bg-white/70 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
       {/* Desktop Navigation - Right aligned */}
@@ -43,7 +40,9 @@ const Navbar = () => {
                 href={item.href}
                 className="group flex items-center justify-end px-3 py-2 rounded-full hover:bg-notion-gray/20 transition-all duration-300"
               >
-                <span className="text-notion-text/80 group-hover:text-notion-text font-medium text-right">{item.name}</span>
+                <span className="text-notion-text/80 group-hover:text-notion-text font-medium text-right">
+                  {item.name}
+                </span>
               </a>
             </li>
           ))}
@@ -51,8 +50,8 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu Button */}
-      <button 
-        className="md:hidden fixed top-4 right-4 p-2 bg-white/70 rounded-full shadow-sm backdrop-blur-sm text-notion-text z-50" 
+      <button
+        className="md:hidden fixed top-4 right-4 p-2 bg-white/70 rounded-full shadow-sm backdrop-blur-sm text-notion-text z-50"
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         aria-label="Toggle menu"
       >
