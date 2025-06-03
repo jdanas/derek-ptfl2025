@@ -164,7 +164,7 @@ const About = () => {
                       <div className="relative bg-gradient-to-b from-notion-gray/10 to-notion-gray/5 rounded-lg overflow-hidden">
                         <Avatar className="w-full h-full border-2 border-notion-gray/20 shadow-lg rounded-lg">
                           <AvatarImage
-                            src="/derek-elden2.webp"
+                            src="/derek-elden2_bw.webp"
                             alt="Developer"
                             className="rounded-lg object-cover w-full h-full"
                           />
@@ -376,26 +376,24 @@ const About = () => {
 
             <div className="space-y-4 text-lg text-notion-text/80">
               <p>
-                Hello! I'm a frontend developer with a passion for creating
-                minimal, elegant interfaces that balance aesthetics and
-                functionality.
+                Hello! I'm a frontend developer passionate about crafting clean,
+                elegant interfaces that balance aesthetics with function. I
+                specialize in React, TypeScript, and modern CSS, turning designs
+                into seamless, intuitive experiences.
               </p>
+
               <p>
-                I specialize in React, TypeScript, and modern CSS frameworks,
-                bringing designs to life with clean code and thoughtful
-                interactions. My approach combines technical expertise with
-                design sensibility.
+                Currently, I work at Nanyang Technological University Singapore
+                as a Research Engineer II, building AI-powered tools for
+                maritime safety under the Singapore Maritime Institute's "Safety
+                4.0" project. From predictive risk models to crew well-being
+                monitoring, I'm helping ships stay safe and crews stay sharp.
               </p>
+
               <p>
-                Previously, I worked at{" "}
-                <span className="bg-yellow-100 px-1 rounded">Company Name</span>{" "}
-                where I led the redesign of their core product, improving user
-                engagement by 32%.
-              </p>
-              <p>
-                When I'm not coding, you'll find me sketching UI concepts,
-                reading design books, or exploring new coffee shops around the
-                city.
+                When I'm not coding, you'll catch me sketching UI ideas,
+                flipping through design books, or hunting down the next great
+                coffee spot in Singapore.
               </p>
             </div>
 
