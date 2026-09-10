@@ -156,7 +156,7 @@ const About = () => {
 
                     <div className="flex items-center text-sm text-notion-text/60 mb-4 gap-2">
                       <Shield className="h-4 w-4" />
-                      <span>Developer - Research Engineer II</span>
+                      <span>Developer - Senior Research Engineer</span>
                     </div>
 
                     <div className="relative mb-3">
@@ -373,34 +373,34 @@ const About = () => {
               About Me
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-notion-text mb-6">
-              Design-minded developer with an eye for detail
+              Building adaptive, AI-driven systems with craft and detail
             </h2>
 
             <div className="space-y-4 text-lg text-notion-text/80">
               <p>
-                As a Research Engineer II at Nanyang Technological University
-                Singapore, I'm at the forefront of maritime innovation, helping
-                ships navigate the future safely. Under the Singapore Maritime
-                Institute's "Safety 4.0" project, I design and build AI-powered
-                tools that transform how we approach maritime safety.
+                As a Senior Research Engineer at Nanyang Technological
+                University, Singapore, I design and deploy intelligent,
+                data-driven systems that bring efficiency to the built
+                environment. Working on smart building initiatives supported
+                by the Building and Construction Authority (BCA), my work
+                focuses on adaptive HVAC control and real-time optimization.
               </p>
 
               <p>
-                This involves developing AI/ML predictive models for real-time
-                risk forecasting and anomaly detection in ship operations,
-                creating comprehensive safety analytics frameworks that
-                integrate diverse data streams (sensor, environmental, and
-                biometric), and pioneering crew well-being monitoring using
-                physiological and mental health indicators. My goal is to equip
-                the maritime industry with decision-support tools that automate
-                safety alerts and recommend crucial mitigation strategies,
-                ultimately making our seas safer and our crews sharper.
+                This involves developing predictive AI/ML models,
+                reinforcement learning agents, and robust multi-agent
+                frameworks capable of continuously learning from thermal
+                dynamics, sensor telemetry, and occupant patterns. By closing
+                the loop between machine intelligence and physical energy
+                systems, I build full-stack tools and decision platforms that
+                cut energy consumption without sacrificing human comfort.
               </p>
 
               <p>
-                When I'm not deep in the matrix, I'm probably conjuring up UI
-                masterpieces, devouring design wisdom, or meticulously crafting
-                the next legendary brew in Singapore
+                When I'm not fine-tuning models or crafting responsive
+                interfaces, I'm usually dialing in pour-overs, tinkering with
+                custom mechanical keyboards, or exploring design systems
+                across Singapore.
               </p>
             </div>
 

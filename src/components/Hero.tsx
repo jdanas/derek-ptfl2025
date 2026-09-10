@@ -37,7 +37,7 @@ const Hero = () => {
             className="inline-block mb-4 px-4 py-1.5 bg-notion-gray/20 text-notion-text/70 rounded-lg transform -rotate-1 animate-fade-in opacity-0"
             style={{ animationDelay: "0.3s" }}
           >
-            <p className="text-sm font-medium">Research Engineer II</p>
+            <p className="text-sm font-medium">Senior Research Engineer</p>
           </div>
 
           {/* Name heading with neutral color */}
