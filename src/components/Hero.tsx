@@ -56,8 +56,8 @@ const Hero = () => {
             className="text-xl md:text-2xl text-notion-text/70 mb-6 animate-fade-in opacity-0"
             style={{ animationDelay: "0.7s" }}
           >
-            On a quest to leave no pixel
-            <span className="font-medium"> unmastered.</span>
+            I like my code clean and my coffee
+            <span className="font-medium"> cleaner.</span>
           </p>
 
           {/* Short bio */}
@@ -65,7 +65,8 @@ const Hero = () => {
             className="text-lg text-notion-text/70 mb-8 max-w-xl animate-fade-in opacity-0"
             style={{ animationDelay: "0.9s" }}
           >
-            Singapore-based, designing digital experiences that leave a mark.
+            Singapore-based engineer, obsessed with craft, curiosity, and
+            getting the details right.
           </p>
 
           {/* CTA buttons with Notion-like design */}
